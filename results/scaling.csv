@@ -1,0 +1,4 @@
+setting,ms per query
+Bi-encoder: embed query + search all 430 chunks,3.2
+Cross-encoder: 10 candidates,13.1
+Cross-encoder: all 430 chunks (whole document),475.6

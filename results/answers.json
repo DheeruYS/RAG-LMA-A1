@@ -1,0 +1,114 @@
+[
+  {
+    "category": "Keyword trap / distractor",
+    "query": "How much can a company be fined for failing to report a data breach?",
+    "top3_baseline": [
+      "411 (Article 83)",
+      "100 (Recital 85)",
+      "103 (Recital 87)"
+    ],
+    "top3_reranked": [
+      "411 (Article 83)",
+      "100 (Recital 85)",
+      "410 (Article 83)"
+    ],
+    "answer1": "A company can be fined up to 4% of its global annual turnover or 20 million euros, whichever is greater, for failing to report a data breach [1].",
+    "answer2": "The provided context does not contain the answer. [1]"
+  },
+  {
+    "category": "Exception / corner case",
+    "query": "When is a controller not required to tell affected individuals about a personal data breach?",
+    "top3_baseline": [
+      "100 (Recital 85)",
+      "102 (Recital 86)",
+      "101 (Recital 85)"
+    ],
+    "top3_reranked": [
+      "101 (Recital 85)",
+      "288 (Article 34)",
+      "285 (Article 33)"
+    ],
+    "answer1": "A controller is not required to notify affected individuals about a personal data breach if they can demonstrate, in accordance with the accountability principle, that the personal data breach is unlikely to result in a risk to the rights and freedoms of natural persons [3].",
+    "answer2": "A controller is not required to tell affected individuals about a personal data breach if any of the following conditions are met: (a) the controller has implemented appropriate technical and organizational protection measures, and those measures were applied to the personal data affected by the personal data breach, in particular those that render the personal data unintelligible to any person who is not authorized to access it, such as encryption; (b) the controller has taken subsequent measures which ensure that the high risk to the rights and freedoms of data subjects referred to in Article 34(1) is no longer likely to materialise; (c) it would involve disproportionate effort. In such cases, there shall instead be a public communication or similar measure whereby the data subjects are informed in an equally effective manner. [2]"
+  },
+  {
+    "category": "Negation / prohibition",
+    "query": "Is it forbidden to process biometric data to identify a person?",
+    "top3_baseline": [
+      "54 (Recital 51)",
+      "62 (Recital 57)",
+      "229 (Article 9 – Article 11)"
+    ],
+    "top3_reranked": [
+      "54 (Recital 51)",
+      "223 (Article 8 – Article 9)",
+      "62 (Recital 57)"
+    ],
+    "answer1": "Based on [1], biometric data should not be processed through a specific technical means allowing the unique identification or authentication of a natural person, unless processing is allowed in specific cases set out in this Regulation. Therefore, it is not forbidden but requires specific authorization. [1]",
+    "answer2": "Yes, according to [2], biometric data should not be processed for the purpose of uniquely identifying a natural person unless allowed by specific provisions in this Regulation. Exceptions may exist under Article 9, paragraph 1, which allows processing if it is for purposes related to health or sex life/sexual orientation, but these are not for the purpose of uniquely identifying a person. Therefore, processing biometric data solely for identification purposes is generally forbidden."
+  },
+  {
+    "category": "Role limit (synonyms + negation)",
+    "query": "Can a member of a supervisory authority have another paid job?",
+    "top3_baseline": [
+      "142 (Recital 121)",
+      "372 (Article 62)",
+      "344 (Article 53 – Article 54)"
+    ],
+    "top3_reranked": [
+      "343 (Article 52 – Article 53)",
+      "142 (Recital 121)",
+      "344 (Article 53 – Article 54)"
+    ],
+    "answer1": "No, a member of a supervisory authority cannot engage in any incompatible occupation during their term of office, whether gainful or not [1].",
+    "answer2": "No, according to [2] 4., a member of the supervisory authority shall not, during their term of office, engage in any incompatible occupation, whether gainful or not."
+  },
+  {
+    "category": "Buried chunk (rank 4-10)",
+    "query": "What is the maximum fine for violating the basic principles of processing?",
+    "top3_baseline": [
+      "410 (Article 83)",
+      "175 (Recital 148)",
+      "408 (Article 83)"
+    ],
+    "top3_reranked": [
+      "411 (Article 83)",
+      "410 (Article 83)",
+      "408 (Article 83)"
+    ],
+    "answer1": "The maximum fine for violating the basic principles of processing is 10,000,000 EUR or 2% of the annual global revenue, whichever is greater. This can be found in [1] under point (a).",
+    "answer2": "The maximum fine for violating the basic principles of processing is 20,000,000 EUR or 4% of the annual global turnover, whichever is greater. This can be found in [1] under (a)."
+  },
+  {
+    "category": "Counter-example: re-ranking hurts",
+    "query": "When does the right to be forgotten not apply?",
+    "top3_baseline": [
+      "251 (Article 15 – Article 17)",
+      "71 (Recital 65)",
+      "73 (Recital 66)"
+    ],
+    "top3_reranked": [
+      "71 (Recital 65)",
+      "73 (Recital 66)",
+      "251 (Article 15 – Article 17)"
+    ],
+    "answer1": "The right to be forgotten does not apply when the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed [1].",
+    "answer2": "The right to be forgotten does not apply when the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed, or where the processing of personal data does not otherwise comply with the GDPR [3]."
+  },
+  {
+    "category": "Counter-example: first-stage recall ceiling",
+    "query": "Can public authorities rely on legitimate interests as a legal basis?",
+    "top3_baseline": [
+      "46 (Recital 47)",
+      "61 (Recital 55 – Recital 56)",
+      "47 (Recital 47)"
+    ],
+    "top3_reranked": [
+      "47 (Recital 47)",
+      "46 (Recital 47)",
+      "27 (Recital 31)"
+    ],
+    "answer1": "Public authorities can rely on legitimate interests as a legal basis for processing personal data, but this must be assessed carefully considering the data subject's expectations and fundamental rights [1]. However, the processing by public authorities in the performance of their tasks does not fall under this legal basis as it is for the legislator to provide such a basis by law [3].",
+    "answer2": "Based on Recital 47 [1], [2], public authorities can rely on legitimate interests as a legal basis for processing personal data, provided that the interests or fundamental rights of the data subject are not overriding. However, this must be assessed considering the reasonable expectations of data subjects based on their relationship with the controller. [1]"
+  }
+]

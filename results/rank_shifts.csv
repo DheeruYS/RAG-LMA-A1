@@ -1,0 +1,10 @@
+category,query,critical chunk,section,baseline rank,re-ranked rank,in LLM context (P1),in LLM context (P2)
+Keyword trap / distractor,How much can a company be fined for failing to report a data breach?,410,Article 83,7,3,False,True
+Exception / corner case,When is a controller not required to tell affected individuals about a personal data breach?,288,Article 34,5,2,False,True
+Negation / prohibition,Is it forbidden to process biometric data to identify a person?,223,Article 8 – Article 9,8,2,False,True
+Role limit (synonyms + negation),Can a member of a supervisory authority have another paid job?,142,Recital 121,1,2,True,True
+Role limit (synonyms + negation),Can a member of a supervisory authority have another paid job?,342,Article 51 – Article 52,10,7,False,False
+Role limit (synonyms + negation),Can a member of a supervisory authority have another paid job?,343,Article 52 – Article 53,7,1,False,True
+Buried chunk (rank 4-10),What is the maximum fine for violating the basic principles of processing?,411,Article 83,8,1,False,True
+Counter-example: re-ranking hurts,When does the right to be forgotten not apply?,254,Article 17 – Article 18,4,6,False,False
+Counter-example: first-stage recall ceiling,Can public authorities rely on legitimate interests as a legal basis?,215,Article 6,90,not in top-10,False,False
